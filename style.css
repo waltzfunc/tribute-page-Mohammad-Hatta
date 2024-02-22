@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kalam", cursive;
+}
+
+html {
+    background-color: rgb(238, 195, 115);
+}
+@media (max-width: 460px) {
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+  }
+
+
+.banner {
+    background-color: rgb(135, 100, 69);
+    height: auto;
+    background-size: cover;
+    padding: 15px;
+    margin: 20px 10px 20px
+}
+
+.banner, h1 {
+    text-align: center;
+    color:  rgb(244, 223, 186);
+}
+
+#img-div {
+padding: 10px;
+background: rgb(202, 150, 92);
+margin: 20px 10px 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px  10px;
+  }
+
+#img-caption {
+    margin: 10px 10px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 0px 0px 25px;
+}
+
+main{
+    background-color:rgb(135, 100, 69) ;
+    color: rgb(244, 223, 186);
+    margin: 20px 10px 20px;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    text-wrap: stable;
+}
+
+
+ul {
+    margin: 20px;
+   
+}
+ul, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-wrap:  wrap;
+
+}
+
+footer {
+    background: rgb(202, 150, 92);
+    text-align: center;
+    margin: 20px 10px 20px;
+    padding: 10px;
+}
+
+
+  
